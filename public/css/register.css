@@ -12,8 +12,34 @@ main input{
     border-color: transparent;
 }
 
+h2{
+    font-size:1.6rem;
+}
+
+.perfil{
+    font-size:large;
+}
+
+.radio{
+    display: flex;
+    width: 30px;
+    top: 30px;
+    position: relative;
+}
+
+.checkbox{
+    display: flex;
+    width: 30px;
+    top: 25px;
+    position: relative;
+}
+
+.password {
+    font-size: medium;
+}
+
 form{
-    width: 100%;
+    width: 80%;
     background-color: #ebebeb;
     font-size: 25px;
     border: solid 15px #ebebeb;
