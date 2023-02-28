@@ -251,6 +251,14 @@ footer p {
     text-align: center;
 }
 
+footer:hover i{
+color: red;
+}
+
+footer i{
+transition: color 450ms;
+}
+
 @media(max-width:600px) {
     .main-header-top-bar img {
         width: 50%;
